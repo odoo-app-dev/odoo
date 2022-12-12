@@ -61,7 +61,7 @@
             <div t-else="" class="ml-4 mt-4">
                 <t t-call="survey.survey_page_statistics_question" />
             </div>
-            <p style="page-break-after: always;"></p> <!-- Add the following line. It will separate each question data on one page  -->
+            <p style="page-break-after: always;"></p> <!-- Add this line. It will separate each question data on one page  -->
         </div>
     </template>
 
