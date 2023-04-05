@@ -14,3 +14,9 @@ https://github.com/odoo-app-dev/odoo/blob/afb2862e59bb83b66a73ccc49f09ab1beff11a
 ## Javascript
 #### Notification
 https://github.com/odoo-app-dev/odoo/blob/main/js/notification.js
+
+## Pyton
+
+#### Constrains
+[Sample 1](https://github.com/odoo/odoo/blob/2242ec58e3ede51ae40879aedc3a8179d0d4ae49/addons/maintenance/models/maintenance.py#L198)
+[Sample 2](https://github.com/odoo/odoo/blob/8b16d691d810b3dcfb3b3bac7a868aeb180c51b5/odoo/addons/base/models/res_partner.py#L441)
