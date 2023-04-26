@@ -26,3 +26,5 @@ state = field.Selection([('a', 'Firest'),('b', 'Second')])
 
 - record.state => a
 - dict(record._fields["state"].selection).get(record.state) => First
+- dict(record._fields["state"]._description_selection(record.env)).get(record.state)  => First ( translatable in website + 
+[Explicit exports](https://www.odoo.com/documentation/16.0/developer/howtos/translations.html#explicit-exports))
