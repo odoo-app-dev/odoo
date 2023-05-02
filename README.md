@@ -29,7 +29,7 @@ state = field.Selection([('a', 'Firest'),('b', 'Second')])
 - dict(record._fields["state"]._description_selection(record.env)).get(record.state)  => First ( translatable in website + 
 [Explicit exports](https://www.odoo.com/documentation/16.0/developer/howtos/translations.html#explicit-exports))
 
-### Get the current record id on creation
+#### Get the current record id on creation
 ```
 def create(self, vals):
     res = super(<class name>, self).create(vals)
