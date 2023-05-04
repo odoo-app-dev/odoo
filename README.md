@@ -30,6 +30,7 @@ state = field.Selection([('a', 'Firest'),('b', 'Second')])
 [Explicit exports](https://www.odoo.com/documentation/16.0/developer/howtos/translations.html#explicit-exports))
 
 #### Get the current record id on creation
+new
 ```
 def create(self, vals):
     res = super(<class name>, self).create(vals)
